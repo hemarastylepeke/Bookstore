@@ -18,9 +18,10 @@
         <a href="{% url 'account_logout' %}">Log Out</a>
         {% else %}
         <div class="nav-link">
+            <a href="{% url 'book_list' %}">Books</a>
+            <a href="{% url 'about' %}">About</a>
             <a href="{% url 'account_login' %}">Log In</a>
             <a href="{% url 'account_signup' %}">Sign Up</a>
-            <a href="{% url 'about' %}">About</a>
         </div>
         {% endif %}
     </div>

@@ -8,4 +8,5 @@ urlpatterns = [
     path("accounts/", include("allauth.urls")),
     # Local apps
     path("", include("pages.urls")),  # new for homepage
+    path("books/", include("books.urls")),
 ]
