@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #242626;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #C35607;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: kurale;
+}
+
+.nav-link {
+    float: right;
+    padding-left: 10px;
+}
+
+.navbar a:hover {
+    background: #615F5D;
+}
+
+
+
+.main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px;
+    /* Used in this example to enable scrolling */
+}
+
+h1 {
+    color: red;
+}
+
+.bookcover {
+    height: 300px;
+    width: auto;
+}

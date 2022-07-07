@@ -1,0 +1,14 @@
+body {
+    min-height: 75rem;
+    padding-top: 80rem;
+}
+
+h1 {
+    color: red;
+}
+
+
+.bookcover {
+    height: 300px;
+    width: auto;
+}
