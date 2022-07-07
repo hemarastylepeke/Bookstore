@@ -16,6 +16,8 @@
         <a href="{% url 'home' %}">Bookstore</a>
         {% if user.is_authenticated %}
         <a href="{% url 'account_logout' %}">Log Out</a>
+        <a href="{% url 'book_list' %}">Books</a>
+        <a href="{% url 'about' %}">About</a>
         {% else %}
         <div class="nav-link">
             <a href="{% url 'book_list' %}">Books</a>
